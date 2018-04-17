@@ -24,8 +24,8 @@
                     <h:inputText id="solde" value="#{compteDetailsMBean.details.solde}" title="Solde" />
                     <h:outputLabel value="Id:" for="id" />
                     <h:inputText readonly="true" id="id" value="#{compteDetailsMBean.details.id}" title="Id" />
-                    <h:commandButton id="update" value="Debiter" action="#{compteDetailsMBean.update}"/>
-                    <h:commandButton id="update" value="Crediter" action="#{compteDetailsMBean.update}"/>
+                    <h:commandButton id="debit" value="Debiter" action="#{compteDetailsMBean.update}"/>
+                    <h:commandButton id="credit" value="Crediter" action="#{compteDetailsMBean.update}"/>
                 </h:panelGrid>
             </h:form>
         </f:view>
